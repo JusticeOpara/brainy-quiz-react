@@ -1,0 +1,124 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'poppins' sans-serif;
+  background-color: #6fb2d2;
+  color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#start-game {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 25vh;
+  /* background-color: black; */
+}
+
+.heading {
+  font-size: 65px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+#btn {
+  font-size: 2.8rem;
+  width: 15rem;
+  height: 10vh;
+  text-align: center;
+  border: 0.3rem solid #eeeeee;
+  text-decoration: none;
+  background-color: #6fb2d2;
+  color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#btn:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+  background-color: #eeeeee;
+  color: #6fb2d2;
+}
+
+/* End section */
+.end-container{
+background-color: #eeeeee;
+width: 100vw;
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.flex-container{
+  background-color: darkseagreen;
+  width: 80vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#finalScore{
+  font-size: 8rem;
+}
+
+.btn {
+  font-size: 1.8rem;
+  height: 3rem;
+  width: 16rem;
+  text-align: center;
+  border: 0.1rem solid #56a5eb;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: #56a5eb;
+  background-color: white;
+}
+
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
+.btn[disabled]:hover {
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: darksalmon; */
+}
+
+input {
+  margin-bottom: 1rem;
+  width: 20rem;
+  height: 3rem;
+  padding-left: 8px;
+  font-size: 1.8rem;
+   border: 1px solid #000; 
+  box-shadow: 0 0.1rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+}
+
+input::placeholder {
+  color: #aaa;
+}
+
